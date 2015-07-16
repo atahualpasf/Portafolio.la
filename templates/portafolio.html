@@ -3,55 +3,79 @@
 	<head>
 		<title>Atahualpa Silva F.</title>
 		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="../static/css/normalize.css">
+		<link rel="stylesheet" href="../static/css/estilos.css">
 	</head>
 	<body>
-		<header></header>
-			<nav>
-				<ul>
-					<li>
-						<a href="#Yo">Yo</a>
-					</li><li>
-						<a href="#perfil">Perfil</a>
-					</li><li>
-						<a href="#trabajo">Trabajo</a>
-					</li><li>
-						<a href="#contacto">Contacto</a>
+		<header id="yo" class="Header">
+			<nav class="MainMenu">
+				<ul class="MainMenu-list">
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#Yo">Yo</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#perfil">Perfil</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#trabajo">Trabajo</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#contacto">Contacto</a>
 					</li>
 				</ul>
 			</nav>
-			<figure>
-				<img src="avatar.jpg" alt="Avatar" />
-				<figcaption>
-					<a href="https://twitter.com/atahualpasf" target="_blank">@atahualpasf</a>
+			<figure class="Header-imageFigure">
+				<img src="avatar.jpg" alt="Avatar" class="Header-image"/>
+				<figcaption class="Header-imageDescription">
+					<a class="Header-link" href="https://twitter.com/atahualpasf" target="_blank">@atahualpasf</a>
 				</figcaption>
-				<p>Atahualpa Silva Falcón</p>
+				<p class="Header-name">Atahualpa Silva Falcón</p>
 			</figure>
-		<section>
-			<h2>Mi perfil</h2>
-			<p>Hola!! Si llegaste hasta aquí puedes ver mi portafolio y contactarme.</p>
-			<a href="https://twitter.com/atahualpasf" target="_blank">Twitter</a>
-			<a href="https://facebook.com/atahualpasf" target="_blank">Facebook</a>
-			<a href="https://github.com/atahualpasf" target="_blank">Github</a>
-			<a href="https://plus.google.com/+AtahualpaSilvaF" target="_blank">Google+</a>
-			<a href="https://cl.linkedin.com/in/atahualpasilvaf" target="_blank">LinkedIn</a>
+		</header>
+		<section id="perfil" class="Profile">
+			<h2 class="Profile-title">Mi perfil</h2>
+			<p class="Profile-description">Hola!! Si llegaste hasta aquí puedes ver mi portafolio y contactarme.</p>
+			<a class="Profile-link" href="https://twitter.com/atahualpasf" target="_blank">Twitter</a>
+			<a class="Profile-link" href="https://facebook.com/atahualpasf" target="_blank">Facebook</a>
+			<a class="Profile-link" href="https://github.com/atahualpasf" target="_blank">Github</a>
+			<a class="Profile-link" href="https://plus.google.com/+AtahualpaSilvaF" target="_blank">Google+</a>
+			<a class="Profile-link" href="https://cl.linkedin.com/in/atahualpasilvaf" target="_blank">LinkedIn</a>
 		</section>
-		<section>
-			<h2>Mi trabajo</h2>
-			<article>
-				<figure>
-					<img src="mejorandola.jpg" alt="Esta es la descripción de mi imagen">
-					<figcaption>Website de mejorando.la</figcaption>
+		<section id="trabajo" class="Work">
+			<h2 class="Work-title">Mi trabajo</h2>
+			<article class="Work-item">
+				<figure class="Work-imageFigure">
+					<img class="Work-image" src="mejorandola.jpg" alt="Esta es la descripción de mi imagen">
+					<figcaption class="Work-description">Website de mejorando.la</figcaption>
+				</figure>
+			</article>
+			<article class="Work-item">
+				<figure class="Work-imageFigure">
+					<img class="Work-image" src="mejorandola.jpg" alt="Esta es la descripción de mi imagen">
+					<figcaption class="Work-description">Website de mejorando.la</figcaption>
+				</figure>
+			</article>
+			<article class="Work-item">
+				<figure class="Work-imageFigure">
+					<img class="Work-image" src="mejorandola.jpg" alt="Esta es la descripción de mi imagen">
+					<figcaption class="Work-description">Website de mejorando.la</figcaption>
+				</figure>
+			</article>
+			<article class="Work-item">
+				<figure class="Work-imageFigure">
+					<img class="Work-image" src="mejorandola.jpg" alt="Esta es la descripción de mi imagen">
+					<figcaption class="Work-description">Website de mejorando.la</figcaption>
 				</figure>
 			</article>
 		</section>
-		<footer>
-			<h3>Contacto</h3>
-			<p>Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario.</p>
-			<form action="">
-				<input type="text" placeholder="Nombre"/>
-				<input type="email" placeholder="Email"/>
-				<textarea placehold="Motivo"></textarea>
-				<button type="submit">Contactarme</button>
+		<footer id="contacto" class="Footer">
+			<h3 class="Foote-title">Contacto</h3>
+			<p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario.</p>
+			<form action="" class="Footer-form">
+				<input class="Footer-formInput" type="text" placeholder="Nombre"/>
+				<input class="Footer-formInput" type="email" placeholder="Email"/>
+				<textarea class="Footer-formTextarea" placehold="Motivo"></textarea>
+				<button class="Footer-button" type="submit">Contactarme</button>
 			</form>
 		</footer>
 	</body>
