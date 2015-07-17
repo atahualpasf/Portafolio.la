@@ -91,12 +91,6 @@
 	text-align: center;
 }
 
-.Work-item {
-	display: inline-block;
-	margin-right: 1.8em;
-	margin-bottom: 1.8em;
-}
-
 .Work-description {
 	font-size: 1.1em;
 	color: #515151;
@@ -106,3 +100,59 @@
 .Work-imageFigure {
 	margin: 0;
 }
+
+.Work-item {
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+
+/* Footer */
+
+.Footer {
+	background-image: url('../images/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 2em 0;
+	text-align: center;
+}
+
+.Footer-form {
+	text-align: center;
+	display: inline-block;
+}
+
+.Footer-button {
+	background: orange;
+	color: white;
+	border-radius: 1em;
+	padding: .5em 1em;
+	border: none;
+}
+
+.Footer-formInput,
+.Footer-formTextarea {
+	background: white;
+	border: none;
+	display: block;
+	border-radius: 2em;
+	padding: .5em;
+	margin: 0 auto 1em;
+}
+
+.Footer-formTextarea {
+	resize: none;
+}
+
+.Footer-left {
+	display: inline-block;
+	width: 32em;
+	text-align: center;
+	vertical-align: top;
+}
+
+.Footer-title {
+	color: white;
+}
+
