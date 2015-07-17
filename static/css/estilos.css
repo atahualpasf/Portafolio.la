@@ -1,7 +1,24 @@
+.Header {
+	margin-top: 3.75em;
+	background-image: url('../images/portada.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;/*100% es lo mismo*/
+}
+
 .MainMenu {
 	background: #1E1E1E;
 	text-align: center;
 	height: 3.75em;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.MainMenu-list {
+	margin: 0;
+	padding: 0;
 }
 
 .MainMenu-item {
@@ -12,4 +29,5 @@
 	color: #00DBFF;
 	text-decoration: none;
 	line-height: 3.75em;
+	margin-right: 2em;
 }
