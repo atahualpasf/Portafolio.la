@@ -1,3 +1,13 @@
+/* Utilities */
+.u-title {
+	color: #00CCFF;
+	border-bottom: 2px dashed #00CCFF;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: .5em;
+}
+
+/* Header */
 .Header {
 	margin-top: 3.75em;
 	background-image: url('../images/portada.jpg');
@@ -34,6 +44,7 @@
 	margin: 0;
 }
 
+/* MainMenu */
 .MainMenu {
 	background: #1E1E1E;
 	text-align: center;
@@ -58,4 +69,40 @@
 	text-decoration: none;
 	line-height: 3.75em;
 	margin-right: 2em;
+}
+
+/* Profile */
+.Profile {
+	text-align: center;
+}
+
+.Profile-link {
+	background: orange;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 2em;
+	margin-right: .5em;
+}
+
+/* Work */
+.Work {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.Work-item {
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+
+.Work-description {
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;
+}
+
+.Work-imageFigure {
+	margin: 0;
 }
